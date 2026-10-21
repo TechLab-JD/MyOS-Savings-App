@@ -1,0 +1,12 @@
+.sv{display:flex;flex-direction:column;gap:12px;height:100%}
+.sv-set{display:flex;gap:10px}.sv-set label{flex:1;display:flex;flex-direction:column;gap:3px;font-size:.8rem;opacity:.9}
+.sv-set input{padding:7px;border:1px solid var(--muted-bg,#444);border-radius:6px;background:var(--surface,#1e1e1e);color:var(--text,#eee)}
+.sv-bar{position:relative;height:34px;border-radius:17px;background:var(--surface,#1e1e1e);border:1px solid var(--muted-bg,#444);overflow:hidden}
+.sv-fill{height:100%;width:0;background:linear-gradient(90deg,var(--accent2,#27ae60),var(--accent,#3498db));transition:width .4s}
+.sv-bar span{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-weight:700}
+.sv-stat{text-align:center;font-size:.9rem}
+.sv-add{display:flex;gap:8px}.sv-add input{flex:1;padding:8px;border:1px solid var(--muted-bg,#444);border-radius:7px;background:var(--surface,#1e1e1e);color:var(--text,#eee)}
+.sv-add button{padding:8px 14px;border:0;border-radius:7px;background:var(--accent2,#27ae60);color:#fff;cursor:pointer}
+.sv-log{flex:1;overflow:auto;display:flex;flex-direction:column;gap:4px;font-size:.82rem}
+.sv-log div{display:flex;justify-content:space-between;padding:5px 8px;border-radius:6px;background:var(--surface,#1e1e1e)}
+.sv-log button{border:0;background:transparent;color:var(--dim,#888);cursor:pointer}
